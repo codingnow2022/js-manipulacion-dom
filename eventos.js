@@ -10,6 +10,7 @@ const resultado = document.querySelector("#result");
 // EXPLICAMOS QUE AUNQUE DENTRO DE LAS ETIQUETAS DE HTML PODEMOS PONER DIRECTAMENTE EL ONCHANGE=""
 //  Y DENTRO PONER EL CODIGO JS, ESTO SERIA TEDIOSO, MOSTRAR EJEMPLO DEL CONSOLE.LOG
 // PARA EVITAR ESO, UTILIZAMOS FUNCIONES
+// ABC GIT PRUEBA
 
 function sumar() {
     console.log(Number(input1.value) + Number(input2.value));

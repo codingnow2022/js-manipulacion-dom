@@ -197,6 +197,7 @@ function imprimirTodo(arra) {
     for (let i = 0; i < arra.length; i++) {
         // Al imprimir el arreglo y el contador mostrará cada item del arreglo o lista
         console.log(arra[i]);
+        
 
     }
     // console.log(arra[0]);
