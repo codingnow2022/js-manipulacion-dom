@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+
+<body>
+
+    <h1>HOLA A TODOS, SOY UN TÍTULO</h1>
+    <p>Y yo soy un simple párrafo</p>
+
+    <input id="calculo1" type="number" placeholder="Escríbe un número aquí">
+    <input id="calculo2" onchange="console.log('Cambiamos el contenido del input')" type="number"
+        placeholder="Escríbe un número aquí">
+    <button id="btn-calcular" onclick="sumar()">SUMAR</button>
+    <p id="result"></p>
+    <p><br><br>-----------------------------------------------<br><br></p>
+    <input id="calculo3" type="number" placeholder="Escríbe un número aquí">
+    <input id="calculo4" onchange="console.log('Cambiamos el contenido del input')" type="number"
+        placeholder="Escríbe un número aquí">
+    <button id="btn-multi">MULTIPLICAR</button>
+    <p id="resultM"></p>
+
+    <p><br><br>-----------------------------------------------<br><br></p>
+    <form id="formulario">
+        <input id="calculo5" type="number" placeholder="Escríbe un número aquí">
+        <input id="calculo6" onchange="console.log('Cambiamos el contenido del input')" type="number"
+            placeholder="Escríbe un número aquí">
+        <button id="btn-divi" >DIVIDIR</button>
+    </form>
+    <p id="resultD"></p>
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>
